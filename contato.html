@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style/contatos.css">
+</head>
+<body>
+
+    <header>
+        <img src="assets/logoggmpc-removebg-preview.png" alt="Logo GGMPC" width="100" height="100">
+        <nav class="navigation">
+            <a href="index.html">Inicio</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="contato.html" class="ativo">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALE COM A <span>GGMPC.</span></h2>
+
+                <form method="post" action="envia.php">
+
+                    <input type="text" name="nome" id="nome" placeholder="Nome:" required>
+                    <input type="text" name="email" id="email" placeholder="Email:" required>
+                    <input type="text" name="telefone" id="telefone" placeholder="Celular(opcional):">
+                    <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

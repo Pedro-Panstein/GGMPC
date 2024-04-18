@@ -1,0 +1,114 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+}
+
+header {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.navigation {
+
+    margin: 0 26%;
+
+}
+
+.navigation a {
+
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 auto;
+    font-weight: 600;
+
+}
+
+.navigation a:hover, .navigation a.ativo {
+
+    background: #00ffb3;
+    color: #020202;
+
+}
+
+
+.titulo-projetos {
+
+    height: 171%;
+    background-image: url(/assets//fundo-gradient.png);
+    background-size: cover;
+
+}
+
+.titulo-projetos h1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 25%;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    -webkit-text-stroke: 4px;
+    -webkit-text-stroke-color: rgb(0, 48, 85);
+    letter-spacing: 2px;
+
+}
+
+.imagem-projetos {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 20%;
+    padding-bottom: 10%;
+
+}
+
+.borda {
+
+    padding: 0% 5% 6% 5%;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 20px;
+    background-color: #00ff1525;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+
+.borda:hover {
+
+    transition: 1s;
+    transform: scale(1.08);
+    border: 10px solid rgba(255, 0, 0, 0.786);
+    background-color: #ff000040;
+    border-radius: 50px;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    cursor: not-allowed;
+
+}
