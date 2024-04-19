@@ -126,6 +126,6 @@ header {
 .imagem-em-andamento:hover {
 
     transition: 5s;
-    transform: rotate(600deg);
+    transform: rotate(400deg);
 
 }
