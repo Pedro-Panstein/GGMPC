@@ -114,6 +114,13 @@ header {
 
 }
 
+.borda img:hover {
+
+    transition: 5s;
+    transform: rotate(400deg);
+    
+}   
+
 .imagem-em-andamento {
 
     padding: 20px 20px;
