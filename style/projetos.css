@@ -114,7 +114,7 @@ header {
 
 }
 
-.borda img:hover {
+.borda:hover img {
 
     transition: 5s;
     transform: rotate(400deg);
