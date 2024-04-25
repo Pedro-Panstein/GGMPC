@@ -10,7 +10,7 @@
 
     $corpo = "Nome: ".$nome."\n"."Email: ".$email."\n"."Telefone: ".$telefone."\n"."Mensagem: ".$mensagem;
 
-    $cabecalho = "From: teste@ggmpc.com"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
+    $cabecalho = "From: 1ggmpc@gmail.com"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
 
     if(mail($para, $assunto, $corpo, $cabecalho)) {
         echo ("E-mail enviado com sucesso!");
