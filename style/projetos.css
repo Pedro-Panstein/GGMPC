@@ -95,7 +95,7 @@ header {
     text-align: center;
     border: 4px solid black;
     border-radius: 20px;
-    background-color: #00fff225;
+    background-color: #00ff1525;
     color: rgb(255, 254, 254);
     font-size: 25px;
 
@@ -105,10 +105,10 @@ header {
 
     transition: 1s;
     transform: scale(1.08);
-    border: 10px solid rgba(0, 38, 255, 0.786);
-    background-color: #1900ff40;
+    border: 10px solid rgba(0, 255, 34, 0.786);
+    background-color: #00ff1540;
     border-radius: 50px;
-    color: #00eeff;
+    color: #73ff00;
     letter-spacing: 1px;
     cursor: pointer;
 
@@ -116,8 +116,8 @@ header {
 
 .borda:hover img {
 
-    transform: rotate(400deg);
-    transition: 6s;
+    transform: scale(1.08);
+    transition: .8s;
     
 }   
 

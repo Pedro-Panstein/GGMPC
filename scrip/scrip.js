@@ -19,6 +19,6 @@ const andamento = document.getElementById("andamento");
 
 andamento.addEventListener("click", function(){
 
-    window.location.href="ArtigoProjeto.html"
+    window.location.href="https://site-weg.vercel.app/"
 
 });
