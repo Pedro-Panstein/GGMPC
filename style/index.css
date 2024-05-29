@@ -42,7 +42,7 @@ header {
 
 .navigation {
 
-    margin: 0 26%;
+    margin: 0 auto;
 
 }
 
@@ -304,4 +304,55 @@ section.module.parallax-1 {
     transition: 0.6s;
     transform: scale(1.06);
 
+}
+
+@media (max-width: 807px){
+    .sec{
+        padding: 5%;
+    }
+
+    .texto-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        padding: 1%;
+        position: relative;
+        background-color: #01221b;
+    }
+
+    .container img{
+        height: 630px;
+        width: 350px;
+    }
+
+    .sec h2 {
+
+        text-align: center;
+        font-size: 1.5em;
+        color: #fff;
+        margin-bottom: 30px;
+    
+    }
+    
+    .Contate-nos strong {
+        font-size: 18px;
+        color: #94ffc0;
+    }
+
+    .Contate-nos{
+        font-size: 18px;
+        padding: 4%;
+    }
+
+}
+
+@media (max-width: 357px){
+    .container img{
+        height: 550px;
+        width: 250px;
+    }
 }
