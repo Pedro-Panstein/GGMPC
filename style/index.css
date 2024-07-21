@@ -58,10 +58,8 @@ header {
 }
 
 .navigation a:hover, .navigation a.ativo {
-
     background: #359382;
     color: #00ff00;
-
 }
 
 .wrapper {

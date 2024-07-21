@@ -15,6 +15,7 @@ window.addEventListener('scroll', () => {
     hill4.style.left = value * -1.5 + 'px';
     hill1.style.top = value * 1 + 'px';
 });
+
 const andamento = document.getElementById("andamento");
 
 andamento.addEventListener("click", function(){
